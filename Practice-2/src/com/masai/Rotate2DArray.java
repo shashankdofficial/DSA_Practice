@@ -2,7 +2,7 @@ package com.masai;
 
 import java.util.Scanner;
 
-import java.util.Scanner;
+	// Write a Java program to rotate arrays 90 degree clockwise by taking matrices from user input.
 
 public class Rotate2DArray {
 	public static void main(String[] args) {
@@ -57,5 +57,7 @@ public class Rotate2DArray {
 	            }
 	            System.out.println();
 	        }
+	        
+	        sc.close();
 	    }
 }
