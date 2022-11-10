@@ -1,19 +1,47 @@
 package com.masai;
 
-public class Main {
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
+public class Main{
+	
+//	@Override
+//	public void run() {
+//		System.out.println("Thread is running");
+//	}
+	
 	public static void main(String[] args) {
-		 int[][] arr = {
-		              {1,2,3}, 
-		              {4,5,6}, 
-		              {7,8,9}
-		            };
-		 
-		 for(int i=0; i<3; i++) {
-			 for(int j=0; j<3; j++) {
-				 System.out.print(arr[j][i]+" ");
-			 }
-			 System.out.println();
-		 }
+	
+//		 Main main = new Main();
+//		 main.start();
+//		 Test t1 = new Test(10,20);
+		
+//		TreeMap<Integer,Integer> map = new TreeMap<>();
+//		
+//		map.put(5, 5);
+//		map.put(4, 4);
+//		map.put(1, 1);
+//		map.put(3, 3);
+//		map.put(2, 2);
+//		
+//		map.remove(1);
+//		
+//		List<Integer> list = new ArrayList<>();
+//		map.entrySet().forEach(a ->{list.add(a.getKey())});
+//		
+//		
+//		for(Map.Entry<Integer, Integer> i: map.entrySet()) {
+//			i.getValue();
+//		}
+		
+		
+		
+		StringBuffer str = new StringBuffer("Manoj");
+		
+		str.append(" Tiwari");
+		
+		System.out.println(str);
 	}
 }
